@@ -1,0 +1,25 @@
+class Student {
+
+    String name;
+    static String college = "Kalasalingam";
+
+    Student(String name) {
+        this.name = name;
+    }
+
+    void display() {
+        System.out.println(name);
+        System.out.println(college);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        Student s1 = new Student("Nagaraj");
+        Student s2 = new Student("Arun");
+
+        s1.display();
+        s2.display();
+    }
+}
